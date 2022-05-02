@@ -21,9 +21,6 @@ class Test_Login(Base):
         self.SettingPage_changes.setting_button()
         self.SettingPage_changes.profile_button()
         time.sleep(5)
-        # self.SettingPage_changes.edit_name()
-        # self.SettingPage_changes.change_user_name()
-        # self.SettingPage_changes.save_update()
 
     @pytest.mark.usefixtures("setup")
     def test_profile_page(self):
